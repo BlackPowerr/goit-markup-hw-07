@@ -110,6 +110,10 @@
     text-align: center;
     letter-spacing: 0.03em;
   }
+
+  .our-teams {
+     background: #F5F4FA;
+  }
   
   .our-teams-title {
     color: var(--primari-text-color);
@@ -155,7 +159,8 @@
     background-color: #2196f3;
   }
   
-  .footer .text {
+  .footer .text:hover
+  .footer .text:focus {
     color: var(--text-white);
     font-style: normal;
     font-size: 14px;
@@ -184,17 +189,37 @@
   .filter .btn {
     font-weight: 500;
     font-size: 16px;
+    font-family: inherit;
     line-height: calc(26 / 16);
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
   }
+
+  .filter .btns {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+  }
+
+  .filter .btns,
+  .filter .btns:hover,
+  .filter .btns:active {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 4px;
+  }
   
   .filter .btn:hover,
   .filter .btn:focus,
   .filter .btn:active {
-    color: var(--text-white);
-    background-color: var(--accent-color);
+    color: #212121;
+    background-color: #F5F4FA;
+    border-radius: 4px;
   }
   
   .projects .title {
