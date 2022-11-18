@@ -159,14 +159,6 @@
     background-color: #2196f3;
   }
   
-  .footer .text:hover
-  .footer .text:focus {
-    color: var(--text-white);
-    font-style: normal;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
-  }
   
   .footer .link {
     font-style: normal;
@@ -226,3 +218,28 @@
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
   }
+ 
+  .footer .text {
+    color: #ffffff;
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+
+  .footer .text:hover,
+  .footer .text:focus {
+    color: #2196F3;
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+
+  .footer li {
+    list-style-type: none;
+  }
+
+ 
