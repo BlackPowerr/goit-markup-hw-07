@@ -153,19 +153,6 @@
   }
   
   
-  .footer .link {
-    font-style: normal;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-  }
-  
-  .footer .link:hover,
-  .footer .link:focus {
-    color: var(--accent-color);
-  }
   
   .footer .logo {
     color: #ffffff;
@@ -304,7 +291,9 @@
 /* HERO */
 
 .hero {
-  max-width: 1600px;
+  max-width: 1440px;
+  margin: auto;
+  
 }
 
 .hero-title{
@@ -533,8 +522,11 @@ margin-bottom: 16px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   width: 40px;
-  height: 40px;
-  
+  height: 40px; 
+}
+.footer-soc-item:hover,
+.footer-soc-item:focus {
+  background-color: #31D0AA;
 }
 
 .footer-soc-icon {
@@ -543,11 +535,8 @@ margin-bottom: 16px;
   fill: #f4f4fd;
 }
 
-
-.footer-soc-container {
+.footer-container {
   display: flex;
-  justify-content: center;
-  margin-right: 692px;
 }
 
 .social-media {
@@ -607,6 +596,14 @@ img {
   border-top: none;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+.works .container:hover,
+.works .container:focus {
+  border-top: none;
+  border: 0.5px solid #F4F4FD;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
+
 /* customers */
 
 
@@ -623,64 +620,38 @@ img {
   display: flex;
   margin-top: 72px;
   justify-content: space-between;
+  
+
+
 }
 
-.icon-ya {
+.icon-item {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.icon-item-svg {
+  fill: #8E8F99;
   width: 168px;
   height: 88px;
   border: 1px solid #8E8F99;
-  border-radius: 4px;
-  background-image: url(../images/svg/ya.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  border-radius: 4px; 
+  padding-top: 16px;
+  padding-left: 32px;
 }
 
-.icon-company {
-  width: 168px;
-  height: 88px;
-  border: 1px solid #8E8F99;
+.icon-item-svg:hover,
+.icon-item-svg:focus {
+  
+  fill: #4D5AE5;
   border-radius: 4px;
-  background-image: url(../images/svg/book.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  border: 1px solid #4D5AE5;
 }
 
-.icon-onion {
-  width: 168px;
-  height: 88px;
-  border: 1px solid #8E8F99;
-  border-radius: 4px;
-  background-image: url(../images/svg/onion.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-.icon-foster {
-  width: 168px;
-  height: 88px;
-  border: 1px solid #8E8F99;
-  border-radius: 4px;
-  background-image: url(../images/svg/foster.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-.icon-brand {
-  width: 168px;
-  height: 88px;
-  border: 1px solid #8E8F99;
-  border-radius: 4px;
-  background-image: url(../images/svg/brand.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-.icon-cube {
-  width: 168px;
-  height: 88px;
-  border: 1px solid #8E8F99;
-  border-radius: 4px;
-  background-image: url(../images/svg/cube.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
+
