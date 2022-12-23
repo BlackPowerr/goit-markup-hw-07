@@ -19,30 +19,27 @@
   <body>
     <!--Шапка сайту-->
     <header class="page-header">
-     <div class="container">
-      <nav class=" main-nav">
-        <a href="./index.html" lang="en" class="logo"><span class="logo-blue">WEB</span>STUDIO</a>
-        <ul class="menu-nav list">
-          <li class="item"><a href="./index.html" class="link">Studio</a></li>
-          <li class="item"><a href="./portfolio.html" class="link">Portfolio</a></li>
-          <li class="item"><a href="./contact.html" class="link">Contacts</a></li>
-        </ul>
-        <ul class="contact list">
-          <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-          <li class="item"><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
-        </ul>
-      </nav>
-     </div>
-    
-
-      
+      <div class="container">
+       <nav class=" main-nav">
+         <a href="./index.html" lang="en" class="logo"><span class="logo-blue">WEB</span>STUDIO</a>
+         <ul class="menu-nav list">
+           <li class="item"><a href="./index.html" class="link active">Studio</a></li>
+           <li class="item"><a href="./portfolio.html" class="link">Portfolio</a></li>
+           <li class="item"><a href="./contact.html" class="link">Contacts</a></li>
+         </ul>
+         <ul class="contact list">
+           <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+           <li class="item"><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
+         </ul>
+       </nav>
+      </div>
     </header>
 
     <main>
       <section class="hero business">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="btn-primary">Order Service</button>
+        <button data-modal-open type="button" class="btn-primary">Order Service</button>
         </div>
       </section>
         
@@ -276,6 +273,18 @@
         
       
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" data-modal-close >
+          <svg class="modal-icon">
+            
+            <use href="./images/svg/close.svg#icon-close" ></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
   
 </html> 
