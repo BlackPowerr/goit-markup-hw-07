@@ -91,10 +91,14 @@ p {
 }
 
 /* -------------------------Screen Mobile----------------------------- */
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 480px) {
     .container {
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .footer-contant {
+        margin-bottom: 72px;
     }
 
     /* HEADER */
@@ -262,6 +266,7 @@ p {
 
     .position-burger-contacts {
         margin-top: auto;
+        overflow: hidden;
     }
 
     .header {
@@ -421,7 +426,7 @@ p {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office\ 1.jpg");
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office05.jpg");
         border: 1px solid #000000;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -437,7 +442,7 @@ p {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office\ 2x.jpg");
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office2x.jpg");
             border: 1px solid #000000;
             box-sizing: border-box;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -509,7 +514,7 @@ p {
         line-height: calc(40 / 36);
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
-        padding-bottom: 72px;
+        margin-bottom: 72px;
     }
 
     .team {
@@ -543,7 +548,7 @@ p {
     }
 
     .efects-team-item {
-        padding-right: 24px;
+        margin-right: 24px;
     }
 
     .team-list {
@@ -554,7 +559,7 @@ p {
     }
 
     .team-item {
-        margin-bottom: 32px;
+        margin-bottom: 72px;
         width: 264px;
     }
 
@@ -563,7 +568,7 @@ p {
     }
 
     .efects-team-item:last-child {
-        padding-right: 0;
+        margin-right: 0;
     }
 
     .team-item img {
@@ -591,7 +596,7 @@ p {
 
     .team-icons {
         display: flex;
-        padding: 12px 16px 36px 16px;
+        padding-bottom: 36px;
         justify-content: center;
         align-items: center;
     }
@@ -643,7 +648,7 @@ p {
     }
 
     .customers-item {
-        width: 168px;
+        width: 190px;
         height: 88px;
     }
 
@@ -709,7 +714,7 @@ p {
         display: flex;
         width: 268px;
         margin-top: 16px;
-        margin-bottom: 72px;
+        
         color: var(--buttons-color-hover);
         line-height: 1.5;
         justify-content: center;
@@ -801,6 +806,7 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
 
     .input-email {
@@ -1466,6 +1472,10 @@ p {
         padding: 0 15px;
     }
 
+    .footer-contant {
+        margin-bottom: 72px;
+    }
+
     /* HEADER */
     .mobile-menu {
         position: fixed;
@@ -1501,7 +1511,8 @@ p {
         padding-right: 40px;
         padding-top: 80px;
         padding-bottom: 40px;
-        height: 100%;
+        overflow: scroll;
+        
     }
 
     .close-button-burger {
@@ -1790,7 +1801,7 @@ p {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office\ 1.jpg");
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office1x.jpg");
         border: 1px solid #000000;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1806,7 +1817,7 @@ p {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office\ 2x.jpg");
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office2x.jpg");
             border: 1px solid #000000;
             box-sizing: border-box;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1912,7 +1923,7 @@ p {
     }
 
     .efects-team-item {
-        padding-right: 24px;
+        margin-right: 24px;
     }
 
     .team-list {
@@ -1932,7 +1943,7 @@ p {
     }
 
     .efects-team-item:last-child {
-        padding-right: 0;
+        margin-right: 0;
     }
 
     .team-item img {
@@ -2012,7 +2023,7 @@ p {
     }
 
     .customers-item {
-        width: 168px;
+        width: 190px;
         height: 88px;
     }
 
@@ -2078,7 +2089,7 @@ p {
         display: flex;
         width: 268px;
         margin-top: 16px;
-        margin-bottom: 72px;
+        
         color: var(--buttons-color-hover);
         line-height: 1.5;
         justify-content: center;
@@ -2170,6 +2181,7 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
 
     .input-email {
@@ -3065,7 +3077,7 @@ p {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office\ 1.jpg");
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office1x.jpg");
         border: 1px solid #000000;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -3081,7 +3093,7 @@ p {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office\ 2x.jpg");
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office2x.jpg");
             border: 1px solid #000000;
             box-sizing: border-box;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -3298,7 +3310,8 @@ p {
     }
 
     .customers-item {
-        flex-basis: calc((100% - 2 * 24px) / 3);
+        /* flex-basis: calc((100% - 2 * 24px) / 3); */
+        width: 168px;
         height: 88px;
     }
 
@@ -3347,6 +3360,7 @@ p {
     }
 
     .footer-contant {
+        margin-bottom: 72px;
         margin-right: 24px;
     }
 
@@ -3459,9 +3473,6 @@ p {
         display: flex;
     }
 
-    .box-subscribe {
-        margin-top: 72px;
-    }
 
     .position-button-subscribe {
         margin-left: 24px;
@@ -4325,7 +4336,7 @@ p {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office\ 1.jpg");
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office1x.jpg");
         border: 1px solid #000000;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -4341,7 +4352,7 @@ p {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office\ 2x.jpg");
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/people-office2x.jpg");
             border: 1px solid #000000;
             box-sizing: border-box;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -4617,6 +4628,7 @@ p {
     }
 
     .footer-contant {
+    
         margin-right: 120px;
     }
 
@@ -5341,4 +5353,12 @@ p {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
     }
+}
+
+.mobile-menu.is-open > body {
+    overflow: hidden;
+}
+
+.list-item-burger {
+    max-height: 100%;
 }
